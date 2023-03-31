@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+@import url("https://use.typekit.net/kys5aet.css");
 *, html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Tilt Warp';
+    font-family: "mr-eaves-modern", sans-serif;
+    font-size: 1.125rem;
 }
 body {
     background-color: #FFFCF4;
@@ -17,7 +18,7 @@ a:active{
 }
 .logo {
     color: #FFFCF4;
-    width: 50%;
+    width: 160px;
     margin-top: 5px;
 }
 .navBar {
@@ -100,6 +101,7 @@ h6 {
 }
 p {
     color: #3E3E3E;
+    font-size:1rem;
 }
 .hero {
     padding: 4rem 0;
