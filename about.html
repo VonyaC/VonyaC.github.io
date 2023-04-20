@@ -8,29 +8,48 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navBar">
+    <nav class='navBar'>
         <div class="container full-height">
             <div class="logoArea"><a href='/'><img class='logo' src="/LaSheaCreateLogo.png" alt="logo"></a></div>
-            <div class="navArea">
-                <div class="menuItem"><a href="/projects.html" class="menu">Projects</a></div>
-                <div class="menuItem"><a href="/resume.html" class="menu">Resume</a></div>
-                <div class="menuItem selected"><a href="/about.html" class="menu">About Me</a></div>
-                <div class="menuItem"><a href="/blog.html" class="menu">Blog</a></div>
-                <div class="menuItem"><a href="/contact.html" class="menu">Contact Me</a></div>
+            <div class="fullNav">
+                  <ul class='navMenu'>
+                    <li class='menuItem'><a href="/projects.html">Projects</a></li>
+                    <li class='menuItem'><a href="/resume.html">Resume</a></li>
+                    <li class='menuItem selected'><a href="/about.html">About</a></li>
+                    <li class='menuItem'><a href="/blog.html">Blog</a></li>
+                    <li class='menuItem'><a href="/contact.html">Contact Me</a></li>
+                  </ul>
             </div>
+              <div class='hamburger'>
+                <button id='hamburger-menu'>
+                    <svg class='hamburger-icon' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                    </svg>
+                </button>
+                <div id='mobile-menu' class='mobileNav mobileView hide'>
+                  <ul class='navMenu'> 
+                    <a href="/projects.html"><li class='menuItem'>Projects</li></a>
+                    <a href="/resume.html"><li class='menuItem'>Resume</li></a>
+                    <a href="/about.html"><li class='menuItem'>About</li></a>
+                    <a href="/blog.html"><li class='menuItem'>Blog</li></a>
+                    <a href="/contact.html"><li class='menuItem'>Contact Me</li></a>
+                  </ul>
+                </div>   
+              </div>
         </div>
-
     </nav>
     <main class="about">
         <div class="container">
             <div class="aboutSection">
                 <div class="aboutContent">
                     <h3 class="header">All about me</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, ipsam cum facilis numquam ipsa, explicabo accusamus molestiae fugiat dolore eligendi dolor suscipit libero voluptate odit voluptatibus est doloremque porro architecto blanditiis placeat tempore omnis? Nemo molestias sapiente veritatis repellat corrupti nisi provident ad, blanditiis dignissimos ratione deserunt commodi incidunt aspernatur. Iure ex voluptatem id corporis in vel, minus, cumque nobis perspiciatis consequuntur, dolore consectetur excepturi obcaecati. Architecto veniam nulla ex eaque laboriosam ab iusto vitae ea corrupti iure, corporis vel optio error eius perferendis omnis amet autem, animi fugit, deleniti ipsum. Porro veniam facilis minima unde error repellendus, inventore deleniti? Veniam aliquam architecto dolores, facilis sapiente voluptatum assumenda nulla. Quo similique perferendis obcaecati architecto ducimus optio nisi rerum est tempora minima asperiores laborum repellendus sunt reprehenderit necessitatibus nobis reiciendis, adipisci itaque facilis recusandae minus saepe. Tempora iure nam nulla nesciunt dolor, explicabo saepe, ad expedita eligendi vero repellendus, laboriosam soluta aliquam aspernatur distinctio. Cupiditate, sunt eius. Molestias fugiat, quos molestiae cum omnis inventore praesentium, amet harum odit quis reiciendis distinctio nemo minus laudantium error magni totam! Eum, dolorem dolorum, quos repellat, repudiandae architecto dolores sint sunt facilis quod ut! Sunt recusandae fugiat in minus sapiente distinctio debitis necessitatibus doloremque corporis!</p>
+                    <p>
+                        I am Charvonay L. Hepburn, I have a bachelor's degree in Businesss Administration - Information System: Application Programming
+                    </p>
         
                 </div>
                 <div class="aboutImage">
-                    Photo here
+                    <img src="images/Charvonay Hepburn.jpeg" alt="Charvonya Hepburn">
                 </div>
             </div>
 
@@ -57,5 +76,6 @@
             
         </div>
     </footer>
+    <script src="/script.js"></script>
 </body>
 </html>

@@ -8,62 +8,70 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navBar">
+    <nav class='navBar'>
         <div class="container full-height">
             <div class="logoArea"><a href='/'><img class='logo' src="/LaSheaCreateLogo.png" alt="logo"></a></div>
-            <div class="navArea">
-                <div class="menuItem selected"><a href="/projects.html" class="menu">Projects</a></div>
-                <div class="menuItem"><a href="/resume.html" class="menu">Resume</a></div>
-                <div class="menuItem"><a href="/about.html" class="menu">About Me</a></div>
-                <div class="menuItem"><a href="/blog.html" class="menu">Blog</a></div>
-                <div class="menuItem"><a href="/contact.html" class="menu">Contact Me</a></div>
+            <div class="fullNav">
+                  <ul class='navMenu'>
+                    <li class='menuItem selected'><a href="/projects.html">Projects</a></li>
+                    <li class='menuItem'><a href="/resume.html">Resume</a></li>
+                    <li class='menuItem'><a href="/about.html">About</a></li>
+                    <li class='menuItem'><a href="/blog.html">Blog</a></li>
+                    <li class='menuItem'><a href="/contact.html">Contact Me</a></li>
+                  </ul>
             </div>
+              <div class='hamburger'>
+                <button id='hamburger-menu'>
+                    <svg class='hamburger-icon' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                    </svg>
+                </button>
+                <div id='mobile-menu' class='mobileNav mobileView hide'>
+                  <ul class='navMenu'> 
+                    <a href="/projects.html"><li class='menuItem'>Projects</li></a>
+                    <a href="/resume.html"><li class='menuItem'>Resume</li></a>
+                    <a href="/about.html"><li class='menuItem'>About</li></a>
+                    <a href="/blog.html"><li class='menuItem'>Blog</li></a>
+                    <a href="/contact.html"><li class='menuItem'>Contact Me</li></a>
+                  </ul>
+                </div>   
+              </div>
         </div>
-
     </nav>
     <main class="projects">
-
         <div class="container">
             
             <div class="projectCollection">
                 <h3 class="header">Things I worked on</h3>
                 <div class="projectCard">
                     <div class="projectCardPhoto">
+                        <img src="/assets/Landscape Ad.png" alt="Landscape ad for cologne and purfume">
                     </div>
                     <div class="projectCardContent">
-                        <h4 class='header'>Project 1</h4>
+                        <h4 class='header'>LaShea Create Scents Campaign</h4>
                         <p class="">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos adipisci impedit eaque blanditiis nisi ipsa minus facere, ex rem voluptatum quisquam omnis similique unde velit veniam, voluptates quas numquam accusantium cupiditate praesentium. Itaque dolor eius est, nihil tenetur pariatur animi dolore facilis corrupti quidem. Consequatur maxime recusandae quibusdam deleniti magnam?
+                            This was a class assignment were I ceated a social media campaign for Narisco. The photos were obtained from Unsplash.
                         </p>
                     </div>
                 </div>
                 <div class="projectCard">
                     <div class="projectCardPhoto">
+                        <img src="/assets/Bradford Bakery Logo Board.png" alt="Bradford Bakery logo">
                     </div>
                     <div class="projectCardContent">
-                        <h4 class='header'>Project 1</h4>
+                        <h4 class='header'>Bradford Bakery UI Design Project</h4>
                         <p class="">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos adipisci impedit eaque blanditiis nisi ipsa minus facere, ex rem voluptatum quisquam omnis similique unde velit veniam, voluptates quas numquam accusantium cupiditate praesentium. Itaque dolor eius est, nihil tenetur pariatur animi dolore facilis corrupti quidem. Consequatur maxime recusandae quibusdam deleniti magnam?
+                            This logo was create for a company called Bradford Bakery
                         </p>
                     </div>
                 </div>
                 <div class="projectCard">
                     <div class="projectCardPhoto">
+                        <img src="/assets/Pet Brigade Logo.png" alt="Pet Brigade logo">
                     </div>
                     <div class="projectCardContent">
-                        <h4 class='header'>Project 1</h4>
+                        <h4 class='header'>Pet Brigade Mobile App Design</h4>
                         <p class="">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos adipisci impedit eaque blanditiis nisi ipsa minus facere, ex rem voluptatum quisquam omnis similique unde velit veniam, voluptates quas numquam accusantium cupiditate praesentium. Itaque dolor eius est, nihil tenetur pariatur animi dolore facilis corrupti quidem. Consequatur maxime recusandae quibusdam deleniti magnam?
-                        </p>
-                    </div>
-                </div>
-                <div class="projectCard">
-                    <div class="projectCardPhoto">
-                    </div>
-                    <div class="projectCardContent">
-                        <h4 class='header'>Project 1</h4>
-                        <p class="">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos adipisci impedit eaque blanditiis nisi ipsa minus facere, ex rem voluptatum quisquam omnis similique unde velit veniam, voluptates quas numquam accusantium cupiditate praesentium. Itaque dolor eius est, nihil tenetur pariatur animi dolore facilis corrupti quidem. Consequatur maxime recusandae quibusdam deleniti magnam?
                         </p>
                     </div>
                 </div>
@@ -92,5 +100,6 @@
             
         </div>
     </footer>
+    <script src="/script.js"></script>
 </body>
 </html>

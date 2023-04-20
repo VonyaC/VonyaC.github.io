@@ -8,41 +8,72 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navBar">
+    <nav class='navBar'>
         <div class="container full-height">
             <div class="logoArea"><a href='/'><img class='logo' src="/LaSheaCreateLogo.png" alt="logo"></a></div>
-            <div class="navArea">
-                <div class="menuItem"><a href="/projects.html" class="menu">Projects</a></div>
-                <div class="menuItem"><a href="/resume.html" class="menu">Resume</a></div>
-                <div class="menuItem"><a href="/about.html" class="menu">About Me</a></div>
-                <div class="menuItem"><a href="/blog.html" class="menu">Blog</a></div>
-                <div class="menuItem"><a href="/contact.html" class="menu">Contact Me</a></div>
+            <div class="fullNav">
+                  <ul class='navMenu'>
+                    <li class='menuItem'><a href="/projects.html">Projects</a></li>
+                    <li class='menuItem'><a href="/resume.html">Resume</a></li>
+                    <li class='menuItem'><a href="/about.html">About</a></li>
+                    <li class='menuItem'><a href="/blog.html">Blog</a></li>
+                    <li class='menuItem'><a href="/contact.html">Contact Me</a></li>
+                  </ul>
             </div>
+              <div class='hamburger'>
+                <button id='hamburger-menu'>
+                    <svg class='hamburger-icon' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                    </svg>
+                </button>
+                <div id='mobile-menu' class='mobileNav mobileView hide'>
+                  <ul class='navMenu'> 
+                    <!-- TODO: Wrap entire list in an a tag. -->
+                    <a href="/projects.html"><li class='menuItem'>Projects</li></a>
+                    <a href="/resume.html"><li class='menuItem'>Resume</li></a>
+                    <a href="/about.html"><li class='menuItem'>About</li></a>
+                    <a href="/blog.html"><li class='menuItem'>Blog</li></a>
+                    <a href="/contact.html"><li class='menuItem'>Contact Me</li></a>
+                  </ul>
+                </div>   
+              </div>
         </div>
-
     </nav>
     <main class="hero">
         <div class="container">
-            <div class="heroContent">
-                <h5 class="cta">Hello, My name is</h5>
-                <h1 class="cta">Charvonya Hepburn</h1>
-                <h4>Backend developer</h4>
-                <div class="heroBtnArea">
-                    <button class="btn cta-btn">Let's Chat</button>
-                    <button class="btn secondary-cta-btn">Download CV</button>
+            <div class="heroSection">
+                <div class="heroContent">
+                    <h5 class="cta">Hello, My name is</h5>
+                    <h1 class="cta">Charvonya Hepburn</h1>
+                    <h4>Backend developer</h4>
+                    <div class="heroBtnArea">
+                        <button class="btn cta-btn">Let's Chat</button>
+                        <button class="btn secondary-cta-btn">Download CV</button>
+                    </div>
                 </div>
-            </div>
-            <div class="heroImage">
-                Placeholder
+                <div class="heroImage">
+                    <img src="images/Charvonay Hepburn.jpeg" alt="Charvonya Hepburn">
+                </div>
+                
             </div>
         </div>
     </main>
     <section class="portfolioSection">
         <div class="container">
             <div class="portfolioContent">
-                <div class="portfolioItem">Portfolio 1</div>
-                <div class="portfolioItem">Portfolio 2</div>
-                <div class="portfolioItem">Portfolio 3</div>
+                <h4>Sample work</h4>
+                <div class="portfolioItem">
+                    <img src="/assets/Landscape Ad.png" alt="Portolio piece 1: LaShea Create cologne ad" srcset="">
+                </div>
+                <div class="portfolioItem">
+                    <img src="/assets/Bradford Bakery Logo Board.png" alt="Bradford Bakery Logo" srcset="">
+                </div>
+                <div class="portfolioItem">
+                    <img src="/assets/Pet Brigade Logo.png" alt="Pet Brigade Logo">
+                </div>
+                <div class="btnGroup">
+                    <a href="/projects.html" class=""><button class="btn secondary-cta-btn project-btn">View Portfolio</button></a>
+                </div>
             </div>
 
         </div>
@@ -68,5 +99,6 @@
             
         </div>
     </footer>
+    <script src="/script.js"></script>
 </body>
 </html>
